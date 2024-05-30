@@ -1,0 +1,123 @@
+
+.carousel-container {
+  position: relative;
+  width: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.carousel-item {
+  position: relative;
+  flex: 0 0 25%;
+}
+
+
+.carousel-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 300px; 
+  border-radius: 10px;
+  object-cover: cover;
+  transition: transform 0.3s ease;
+}
+
+.carousel-card:hover .carousel-image {
+  transform: scale(1.05);
+}
+
+
+.save-button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+
+}
+
+
+.direct-button {
+  position: absolute;
+  bottom: 70px; 
+  left: 10px;
+  background: white;
+  border: 2px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  z-index: 10;
+}
+
+
+.see-more-button {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+
+.carousel-text {
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+.carousel-text h3 {
+  margin: 0;
+}
+
+
+.carousel-container button {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.carousel-container button:hover {
+  background: rgba(255, 255, 255, 1);
+}
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 50%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item {
+    flex: 0 0 100%; 
+  }
+
+  .direct-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .save-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .carousel-text h3 {
+    font-size: 14px;
+  }
+}

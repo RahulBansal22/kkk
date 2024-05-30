@@ -1,0 +1,121 @@
+
+body {
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto; 
+  padding: 0;
+}
+.inner-box {
+  background-color: rgb(151, 151, 149); 
+  border: none;
+  margin-bottom: 1rem; 
+}
+
+/* Button styling */
+.search-button {
+  border: none;  
+  border-radius: 8px; 
+  display: flex;
+  align-items: center;
+}
+
+.search-button .text-xl {
+  font-size: 1.5em; 
+  background-color: orange;
+  
+}
+
+
+.search-button svg {
+  font-size: 1.5rem; 
+}
+
+
+.header-image {
+  height: 25px; 
+  margin-right: 10px;
+}
+
+.header-line {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 30px 0 0;
+}
+
+.big-bold {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 0;
+}
+
+header h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.boxes-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 20px; 
+  margin-top: 20px;
+  overflow-x: auto;
+  text-align: left; 
+}
+
+.box {
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+  padding: 20px;
+  flex: 1; 
+  min-width: 200px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.box-logo {
+  width: 50px; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
+.dropdown-container {
+  flex: 0 1 15%; 
+  margin-right: 0.5rem; 
+}
+
+.dropdown-button {
+  outline: none;
+  padding: 0.5rem 0.75rem; 
+  width: 100%;
+  background-color: #e2e8f0; 
+  color: #000; 
+  height: 2.5rem; 
+  border: none;
+  border-radius: 0.25rem; 
+  appearance: none; 
+}
+
+.dropdown-container .flex {
+  width: 10%;
+}
+
+.dropdown-container button {
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 0.25rem; 
+  cursor: pointer;
+}

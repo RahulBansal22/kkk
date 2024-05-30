@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "image": "src/assets/i21.avif",
+      "place": "Dubai",
+      "price": "from ₹ 28, 488",
+      "link": "https://www.kayak.co.in/flights/DEL-BOM/2024-06-05/2024-06-12"
+    },
+    {
+      "id": 2,
+      "image": "src/assets/i22.webp",
+      "place": "Mumbai, MH",
+      "price": "from ₹ 9, 667",
+      "link": "https://www.kayak.co.in/flights/DEL-BLR/2024-06-05/2024-06-12?sort=bestflight_a"
+    },
+    {
+      "id": 3,
+      "image": "src/assets/i3.jpeg",
+      "place": "Hyderbad, TG",
+      "price": "from ₹ 9, 634",
+      "link": "https://www.kayak.co.in/flights/DEL-BLR/2024-06-05/2024-06-12?sort=bestflight_a"
+    },
+    {
+      "id": 4,
+      "image": "src/assets/i4.jpeg",
+      "place": "Benaluru",
+      "price": "from ₹ 13, 538",
+      "link": "https://www.kayak.co.in/flights/DEL-BLR/2024-06-05/2024-06-12?sort=bestflight_a"
+    },
+    {
+      "id": 5,
+      "image": "src/assets/i5.jpeg",
+      "place": "Kathmandu",
+      "price": "from ₹ 13,621",
+      "link": "https://www.kayak.co.in/explore/DEL-KTM/20240609,20240616?stops=0"
+    },
+    {
+      "id": 6,
+      "image": "src/assets/i6.jpeg",
+      "place": "Chennai",
+      "price": "from ₹ 12, 209",
+      "link": "https://www.kayak.co.in/explore/DEL-MAA/20240610,20240617?stops=0"
+    },
+    {
+      "id": 7,
+      "image": "src/assets/i7.jpeg",
+      "place": "Ahmedabad",
+      "price": "from ₹ 8, 139",
+      "link": "https://www.kayak.co.in/explore/DEL-AMD/20240615,20240619?stops=0"
+    },
+    {
+      "id": 8,
+      "image": "src/assets/i8.jpeg",
+      "place": "Amristar",
+      "price": "from ₹ 6,811",
+      "link": "https://www.kayak.co.in/explore/DEL-ATQ/20240606,20240610?stops=0"
+    }
+  ]

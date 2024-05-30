@@ -1,0 +1,183 @@
+[
+  {
+    "city": "New Delhi ",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "New York",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Dubai",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Hong Kong",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "London",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Singapore",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "San Francisco",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Bengaluru",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Panaji",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Bali",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Chennai",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Hyderbad",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "India",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "Europe",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  },
+  {
+    "city": "United States",
+    "hotels": [
+      { "name": "The George Hotel by Saffron Dubai Creek", "price": "$200+" },
+      { "name": "Queen Elizabeth 2", "price": "$250+" },
+      { "name": "Flight Kochi - Dubai (COK - DXB)", "price": "$300+" },
+      { "name": "Jaypee Siddharth", "price": "$350+" },
+      { "name": "Crowne Plaza New Delhi Mayur Vihar Noida", "price": "$400+" }
+    ]
+  }
+
+]

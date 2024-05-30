@@ -1,0 +1,43 @@
+.tool-container {
+    width: 105%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .tool-container h2 {
+    margin: 10px 0;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space;
+    margin-top: 20px;
+  }
+  
+  .image-block {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .image {
+    max-width: 30%;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    margin-left: 10px;
+    margin-right: 95px;
+    white-space: nowrap;
+  }
+  @media (max-width: 768px) {
+    .images-container {
+      flex-direction: column;
+    }
+  
+    .image-block {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }

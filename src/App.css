@@ -1,0 +1,451 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.app-content {
+  max-width: 100%;
+  padding: 0 20px; /* Adjust as necessary */
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  border-top: 1px solid #D9E2E7;
+}
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+  .card {
+    padding: 2em;
+  }
+
+  .read-the-docs {
+    color: #888;
+  }
+  .App {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+    .map-container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .map-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .map {
+      height: 400px;
+      width: 50%;
+    }
+
+    .side-images {
+      width: 50%;
+      padding-left: 20px;
+    }
+
+    .side-images img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #root {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      height: 100%;
+    }
+
+    .logo {
+      height: 6em;
+      padding: 1.5em;
+      will-change: filter;
+      transition: filter 300ms;
+    }
+
+    .logo:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+
+    .logo.react:hover {
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+
+    @keyframes logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+      }
+    }
+
+    .card {
+      padding: 2em;
+    }
+
+    .read-the-docs {
+      color: #888;
+    }
+
+    .App {
+      text-align: center;/* General styles */
+      #root {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+      }
+      
+      .logo {
+        height: 6em;
+        padding: 1.5em;
+        will-change: filter;
+        transition: filter 300ms;
+      }
+      
+      .logo:hover {
+        filter: drop-shadow(0 0 2em #646cffaa);
+      }
+      
+      .logo.react:hover {
+        filter: drop-shadow(0 0 2em #61dafbaa);
+      }
+      
+      @media (max-width: 768px) {
+        /* Adjustments for smaller screens */
+        .logo {
+          height: 4em;
+          padding: 1em;
+        }
+      
+        .map-container {
+          padding: 10px;
+        }
+      
+        .map-content {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .map {
+          height: 300px;
+          width: 100%; /* Full width on smaller screens */
+        }
+      
+        .side-images {
+          width: 100%;
+          padding-left: 0;
+          margin-top: 10px; /* Add some space between map and side content */
+        }
+      
+        .image-text-block img {
+          width: 100px; /* Adjusted image size for smaller screens */
+          height: 80px;
+          border-radius: 10px;
+        }
+      
+        .heading-container {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      
+        .see-all-box {
+          margin-right: 0; /* Reset margin for the button */
+          margin-top: 10px;
+          padding-bottom: 100px; /* Add margin for spacing */
+        }
+      
+        
+      }
+      
+    }
+
+    .App-logo {
+      height: 40vmin;
+      pointer-events: none;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    }
+
+    .App-header {
+      background-color: #282c34;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+
+    .App-link {
+      color: #61dafb;
+    }
+
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .map-container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .map-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .map {
+      height: 400px;
+      width: 50%;
+    }
+
+    .side-content {
+      width: 50%;
+      padding-left: 20px;
+    }
+
+    .image-text-block {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    .image-text-block img {
+      width: 120px; /* Adjust the size of the image */
+      height: 100px;
+      margin-right: 10px;
+    }
+    .mapheading {
+      font-size: 1.5em;
+      margin-top: 20px;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+
+    .maptiming {
+      font-size: 1em;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .image-text {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    hr {
+      border: 1px solid black;
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .see-all-box {
+      display: inline-block;
+      border: 1px solid black;
+      padding: 5px;
+      color: black;
+      float: right; /* Float the box to the right side */
+      margin-right: 20px; /* Add some margin for spacing */
+    }
+    /* Add this style for the heading-container */
+    .heading-container {
+      display: flex;
+      justify-content: space-between; /* Align items with space between */
+    }
+
+    /* Adjust the margin between h2 and h3 tags */
+
+    .bold-line {
+      font-weight: bold;
+    }
+    
+    .see-all-button {
+
+      
+      background: white;
+      border: black;
+      color: black;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+      height: 10px; /* Adjust height as needed */
+      width: 50px; /* Adjust width as needed */
+      padding: 0; /* Remove default padding */
+      line-height: 10px; /* Adjust line-height */
+    }
+    
+    .see-all-button:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      /* Adjustments for smaller screens */
+      .logo {
+        height: 4em;
+        padding: 1em;
+      }
+    
+      .map {
+        height: 250px;
+        width: 90%;
+      }
+    
+      .side-images {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+      }
+    
+      .image-text-block img {
+        width: 100px;
+        height: 80px;
+        border-radius: 10px;
+      }
+    
+      .heading-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      
+    
+      
+      .see-all-box {
+        margin-right: 0;
+        margin-top: 10px;
+      }
+    
+      
+    }
+    .image-text-block {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-top: 15px; 
+      border-radius: 10px;
+    }
+    
+    
+    .image-text-block img {
+      width: 120px;
+      height: 100px;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+    
+    
+    hr {
+      border: none;
+      border-top: 0px solid black; /* Use border-top instead of background-color */
+      width: 100%;
+      margin: 20px 0; /* Added margin above and below the hr line */
+    }
+    .image-text-block {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    
+    .image-text {
+      margin-left: 10px;
+      flex-grow: 1; /* Allows the text to take up the available space */
+    }
+    .flex-grow {
+      flex-grow: 1;
+    }
+    
+    .heart-icon {
+      margin-left: auto; /* Pushes the heart icon to the rightmost side */
+    }
+   
+    
+    
