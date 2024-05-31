@@ -68,7 +68,7 @@
   background-color: white;
   padding: 0.5em 1em;
   font-weight: bold;
-  border-radius: 0; /* Ensure rectangular shape */
+  border-radius: 10px; /* Ensure rectangular shape */
   display: inline-block; /* Ensure no other styles affect its shape */
 }
 
