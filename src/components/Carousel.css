@@ -50,9 +50,10 @@
 
 .direct-button {
   position: absolute;
+  border: black;
   bottom: 70px; 
   left: 10px;
-  background: white;
+  backgroun : white;
   border: 2px solid black;
   padding: 5px 10px;
   cursor: pointer;
@@ -62,14 +63,13 @@
 }
 
 
-.see-more-button {
-  border: 2px solid black;
-  border-radius: 10px;
-  background: white;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 16px;
-  color: black;
+.carousel-container .see-more-button {
+  border: 2px solid black; /* Add rectangle border */
+  background-color: white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 0; /* Ensure rectangular shape */
+  display: inline-block; /* Ensure no other styles affect its shape */
 }
 
 
@@ -82,11 +82,16 @@
 .carousel-text h3 {
   margin: 0;
 }
+.see-more-button {
+  border: 2px solid black;
+}
+.save-button, .direct-button {
+  border: none;
+}
 
 
 .carousel-container button {
   background: rgba(255, 255, 255, 0.8);
-  border: none;
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
