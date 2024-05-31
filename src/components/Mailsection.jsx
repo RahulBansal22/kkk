@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Mailsection.css';
 import { FaEnvelope } from "react-icons/fa";
+import Image from '../assets/earth.svg';
 
 const MailSection = () => {
   const [email, setEmail] = useState('');
@@ -21,7 +22,7 @@ const MailSection = () => {
     <div className="mail-section">
       <div className="left-content">
         {/* Replace 'image.svg' with your actual SVG image */}
-        <img src="src/assets/earth.svg" alt="Logo" />
+        <img src={Image} alt="Logo" />
       </div>
       <div className="right-content">
       <h2 className='mapheading'>
